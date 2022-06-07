@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <section class="searchBar">
+        <h1>My weather app</h1>
+        <input type="text" name="citySearch" placeholder="Enter a city..."> 
+        <span class= "hidden">Please type in a valid city name...</span>
+        <div class="buttonZone">
+            <button onclick="getWeatherNow()">Current Weather</button>
+            <button onclick="getWeatherForecast()">Weather Forecast</button>
+        </div>
+    </section>
+
+    <section class="weatherNow hidden" >
+        <div id="now">
+        </div>
+        <div>
+            <iframe class="map" src="">
+            </iframe>
+        </div>
+
+        </section>
+
+    <section class="weatherForecast hidden">
+        <div class="forecastDay">
+            <h3 class="header"></h3>
+            <div class="forecastInfo"></div>
+        </div>
+        <div class="forecastDay">
+            <h3 class="header"></h3>
+            <div class="forecastInfo"></div>
+        </div>
+        <div class="forecastDay">
+            <h3 class="header"></h3>
+            <div class="forecastInfo"></div>
+        </div>
+        <div class="forecastDay">
+            <h3 class="header"></h3>
+            <div class="forecastInfo"></div>
+        </div>
+        <div class="forecastDay">
+            <h3 class="header"></h3>
+            <div class="forecastInfo"></div>
+        </div>
+        <div class="forecastDay">
+            <h3 class="header"></h3>
+            <div class="forecastInfo"></div>
+        </div>
+    </section>
+
+    <section class="errorMsg hidden" >
+        <h1>City Not Found</h1>
+    </section>
+    
+</body>
+</html>
