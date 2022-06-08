@@ -6,6 +6,11 @@ html{
     background-size: cover;
 }
 
+.background {
+    background: url(/tema10/images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
 .bg01d, .bg01n {
     background: url(/tema10/images/clearSky.jpg) no-repeat center center fixed;
     background-size: cover;

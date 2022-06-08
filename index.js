@@ -89,10 +89,16 @@ function drawForecast() {
         
         document.querySelector(".weatherNow").classList.add("hidden");
         document.querySelector(".weatherForecast").classList.remove("hidden");
+
+        let page = document.querySelector("html");
+        page.removeAttribute('class');  
     
         document.querySelector("#now").innerHTML = "";  
         let forecastColumns = document.querySelectorAll(".forecastInfo");
         let header = document.querySelectorAll(".header");
+
+        document.querySelector("html").classList.add("background");
+
         for (let i = 0; i < forecastColumns.length; i++){
             forecastColumns[i].innerHTML = "";
     
