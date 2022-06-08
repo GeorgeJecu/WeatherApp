@@ -120,10 +120,10 @@ function drawForecast() {
         }
         str =`
         <div>
-        <img src="${weatherIcon}${icon[i]}.png" " alt="">        
-        <span>Time:${time[i]}</span>
-        <span>Temperature:${temp[i]}℃</span>
-        <span>Description:${description[i]}</span>
+        <img src="${weatherIcon}${icon[i]}.png" " alt="${description[i]} icon">        
+        <span>Time: ${time[i]}</span>
+        <span>Temperature: ${temp[i]}℃</span>
+        <span>Description: ${description[i]}</span>
         </div>
         ` 
     
