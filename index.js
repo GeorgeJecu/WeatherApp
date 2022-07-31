@@ -52,7 +52,7 @@ function drawNow() {
     
             str = `
             <div class = "city">
-            <img src="/tema10/images/pinpoint.svg" " alt="">
+            <img src="images/pinpoint.svg" " alt="">
             <h3>${list.name}</h3>
             </div>
             <div class = "main">

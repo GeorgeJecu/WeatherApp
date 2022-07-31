@@ -2,49 +2,49 @@
 
 html{
     font-family: 'Hind', sans-serif;
-    background: url(/tema10/images/background.jpg) no-repeat center center fixed;
+    background: url(images/background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 .background {
-    background: url(/tema10/images/background.jpg) no-repeat center center fixed;
+    background: url(images/background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 .bg01d, .bg01n {
-    background: url(/tema10/images/clearSky.jpg) no-repeat center center fixed;
+    background: url(images/clearSky.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .bg02d, .bg02n {
-    background: url(/tema10/images/fewClouds.jpg) no-repeat center center fixed;
+    background: url(images/fewClouds.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .bg03d, .bg03n {
-    background: url(/tema10/images/scatteredClouds.jpg) no-repeat center center fixed;
+    background: url(images/scatteredClouds.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .bg04d, .bg04n {
-    background: url(/tema10/images/brokenClouds.jpg) no-repeat center center fixed;
+    background: url(images/brokenClouds.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .bg09d, .bg09n {
-    background: url(/tema10/images/showerRain.jpg) no-repeat center center fixed;
+    background: url(images/showerRain.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .bg10d, .bg10n {
-    background: url(/tema10/images/rain.jpg) no-repeat center center fixed;
+    background: url(images/rain.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .bg11d, .bg11n {
-    background: url(/tema10/images/thunderstorm.jpg) no-repeat center center fixed;
+    background: url(images/thunderstorm.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .bg13d, .bg13n {
-    background: url(/tema10/images/snow.jpg) no-repeat center center fixed;
+    background: url(images/snow.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .bg50d, .bg50n {
-    background: url(/tema10/images/mist.jpg) no-repeat center center fixed;
+    background: url(images/mist.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
